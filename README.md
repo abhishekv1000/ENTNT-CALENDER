@@ -37,6 +37,15 @@
   <p>The application is deployed on Vercel and can be accessed using the link below:</p>
   <p><a href="https://entnt-calender.vercel.app/" target="_blank">EntNT Calendar</a></p>
 
+
+<h2>Technologies Used</h2>
+  <ul>
+    <li><strong>Frontend:</strong> React.js</li>
+    <li><strong>Backend:</strong> Node.js (if applicable) / Express.js</li>
+ <li><strong>Deployment: Backend</strong> Render</li>
+    <li><strong>Deployment: Frontend</strong> Vercel</li>
+    <li><strong>Styling:</strong> CSS / Tailwind CSS / Material UI (if applicable)</li>
+  </ul>
   <h2>Installation</h2>
   <p>To run the project locally:</p>
   <ol>
@@ -51,19 +60,12 @@ cd entnt-calendar</code></pre>
       <p>Create a <code>.env</code> file in the root directory and add the necessary environment variables (such as database URL, API keys, etc.).</p>
     </li>
     <li><strong>Run the development server:</strong>
-      <pre><code>npm run dev</code></pre>
+      <pre><code>npm start</code></pre>
     </li>
     <li>Open <code>http://localhost:3000</code> in your browser to view the application.</li>
   </ol>
 
-  <h2>Technologies Used</h2>
-  <ul>
-    <li><strong>Frontend:</strong> React.js</li>
-    <li><strong>Backend:</strong> Node.js (if applicable) / Express.js</li>
-    <li><strong>Database:</strong> MongoDB / MySQL (depending on your setup)</li>
-    <li><strong>Deployment:</strong> Vercel</li>
-    <li><strong>Styling:</strong> CSS / Tailwind CSS / Material UI (if applicable)</li>
-  </ul>
+  
 
   <h2>Contributing</h2>
   <ol>
