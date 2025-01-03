@@ -1,0 +1,109 @@
+/* General container styles */
+.container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* Styling for metrics container */
+.metricsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.metric {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.metric:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.metric h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.metric p {
+  font-size: 14px;
+  color: #777;
+}
+
+.metric a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Styling for the links */
+.metric-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.metric-link:hover {
+  color: #00aaff; /* Light blue color on hover */
+  transform: scale(1.05); /* Slightly scale the link */
+}
+
+/* Image below all buttons */
+.image-container {
+  margin-top: 50px;
+}
+
+.calendar-image {
+  width: 100%;
+  height: auto;
+  max-width: 600px; /* Set a maximum width */
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.calendar-image:hover {
+  transform: scale(1.05);
+}
+
+/* Additional styles for better responsiveness */
+@media (max-width: 768px) {
+  .metricsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .metric {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .calendar-image {
+    width: 90%;  /* Adjust image size for smaller screens */
+  }
+}

@@ -1,0 +1,146 @@
+/* CompanyAdmin.css */
+
+/* General Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.company-heading, .add-company-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Input Fields and Buttons */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.add-company {
+  margin-bottom: 40px;
+}
+
+.add-button, .add-button-save, .update-button, .edit-button, .delete-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: white;
+  margin-top: 10px;
+}
+
+.add-button-save {
+  background-color: #007bff;
+  color: white;
+}
+
+.update-button {
+  background-color: #ffc107;
+  color: white;
+  margin-top: 10px;
+}
+
+.edit-button {
+  background-color: #17a2b8;
+  color: white;
+  margin-right: 10px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Table Layout */
+.companies-list {
+  margin-top: 40px;
+}
+
+.company-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.company-table th, .company-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.company-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.company-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.company-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.company-table button {
+  padding: 5px 15px;
+  margin: 0;
+}
+
+/* Edit Company Form */
+.edit-company {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 40px;
+}
+
+.edit-company h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.edit-company input {
+  margin-bottom: 15px;
+}
+
+/* Styling for the Add New Company Button */
+.add-company button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .company-table th, .company-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .company-table th, .company-table td {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+}
