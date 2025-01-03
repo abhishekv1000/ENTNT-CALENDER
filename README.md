@@ -47,7 +47,7 @@
     <li><strong>Backend:</strong> Node.js (if applicable) / Express.js</li>
  <li><strong>Deployment: Backend</strong> Render</li>
     <li><strong>Deployment: Frontend</strong> Vercel</li>
-    <li><strong>Styling:</strong> CSS / Tailwind CSS / Material UI (if applicable)</li>
+    <li><strong>Styling:</strong> CSS(if applicable)</li>
   </ul>
   <h2>Installation</h2>
   <p>To run the project locally:</p>
