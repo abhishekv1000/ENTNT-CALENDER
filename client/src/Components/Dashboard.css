@@ -1,0 +1,93 @@
+/* Dashboard.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, rgba(255, 105, 180, 0.7), rgba(75, 0, 130, 0.7)); /* Gradient background */
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.metricsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.metric {
+  background: rgba(255, 255, 255, 0.2); /* Slight white background for the metrics */
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.metric:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+.metric h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Update button color style */
+.metric-link {
+  text-decoration: none;
+  color: white;  /* White text color */
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background for buttons */
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.metric-link:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+  transform: scale(1.05); /* Button grows slightly on hover */
+}
+
+.image-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center;     /* Center the image vertically */
+  width: 100%;
+}
+
+.calendar-image {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: block; /* Remove inline display style to ensure proper centering */
+  margin: 0 auto; /* Ensure it is centered horizontally */
+}
+
+@media (max-width: 768px) {
+  .metricsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calendar-image {
+    width: 100%;
+    max-width: 500px;
+  }
+}

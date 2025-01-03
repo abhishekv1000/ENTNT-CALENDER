@@ -1,0 +1,139 @@
+/* General styling for the container and layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Remove horizontal scrollbar */
+}
+
+/* Hide the scrollbar globally (except in specific cases) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for all elements with overflow */
+* {
+  -ms-overflow-style: none;  /* Internet Explorer */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Add a smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Table styles */
+.company-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* Make sure the columns are fixed and don't overflow */
+  word-wrap: break-word; /* Wrap text if it's too long */
+}
+
+.company-table th, .company-table td {
+  padding: 12px 15px;
+  text-align: left;
+  word-wrap: break-word; /* Wrap long content */
+}
+
+.company-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.company-table td {
+  border: 1px solid #ddd;
+}
+
+/* Make inputs and buttons more responsive */
+.input-field, .add-button, .add-button-save, .edit-button, .delete-button, .update-button {
+  width: 100%; /* Full width for mobile responsiveness */
+  max-width: 300px; /* Max width to avoid stretching too much */
+}
+
+.add-button, .add-button-save, .edit-button, .delete-button, .update-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, color 0.3s;
+}
+
+.add-button:hover,
+.add-button-save:hover,
+.edit-button:hover,
+.delete-button:hover,
+.update-button:hover {
+  background-color: #45a049;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.delete-button:hover {
+  background-color: #f44336;
+}
+
+.edit-button:hover {
+  background-color: #ff9800;
+}
+
+/* Add media query for smaller devices (mobile responsiveness) */
+@media (max-width: 768px) {
+  .company-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .add-company-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .add-company,
+  .edit-company {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  /* Make inputs and buttons smaller and full width */
+  .input-field, .add-button, .add-button-save, .edit-button, .delete-button, .update-button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .company-table th, .company-table td {
+    font-size: 14px; /* Make table text smaller on mobile */
+    padding: 8px 10px;
+  }
+
+  .company-table {
+    margin-top: 10px;
+  }
+}
+
+/* For very small devices (portrait mobile) */
+@media (max-width: 480px) {
+  .company-table th, .company-table td {
+    font-size: 12px; /* Further reduce table text size */
+    padding: 6px 8px;
+  }
+
+  .company-table td {
+    font-size: 12px;
+  }
+
+  .input-field, .add-button, .add-button-save, .edit-button, .delete-button, .update-button {
+    font-size: 12px; /* Smaller buttons for very small devices */
+  }
+}
