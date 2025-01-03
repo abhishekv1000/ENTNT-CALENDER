@@ -35,8 +35,8 @@
 
   <h2>Deployment</h2>
   <p>The application is deployed on Vercel and can be accessed using the link below:</p>
-  <h2> PLEASE WAIT FOR DATA FETCHING FROM BACKEND </h2>
-  <p><a href="https://entnt-calender.vercel.app/" target="_blank">EntNT Calendar </a></p>
+  <h2> PLEASE WAIT FOR DATA FETCHING FROM BACKEND (MAX 2 SECOND) </h2>
+  <p><a href="https://entnt-calender.vercel.app/" target="_blank">https://entnt-calender.vercel.app/ </a></p>
 
 
 <h2>Technologies Used</h2>
