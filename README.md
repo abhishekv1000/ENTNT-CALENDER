@@ -7,12 +7,12 @@
 
 </head>
 <body>
-  <h1>EntNT Calendar</h1>
+  <h1>Entnt Calendar</h1>
   <p>EntNT Calendar is a web application that allows admins to add companies and their information, while clients can appoint specific companies. Both admins and clients have access to the calendar view page to schedule and manage appointments.</p>
 
   <h2>Deployment</h2>
   <p>The application is deployed on Vercel and can be accessed using the link below:</p>
-  <h2> PLEASE WAIT FOR DATA FETCHING FROM BACKEND (MAX 2 SECOND) </h2>
+  <h1> PLEASE WAIT FOR DATA FETCHING FROM BACKEND (MAX 2 SECOND) </h1>
   <p><a href="https://entnt-calender.vercel.app/" target="_blank">https://entnt-calender.vercel.app/ </a></p>
 
 
