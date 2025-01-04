@@ -16,6 +16,22 @@
   <p><a href="https://entnt-calender.vercel.app/" target="_blank">https://entnt-calender.vercel.app/ </a></p>
 
 
+<h2>Installation</h2>
+  <p>To run the project locally:</p>
+  <ol>
+    <li><strong>Clone the repository:</strong>
+      <pre><code>git clone https://github.com/your-username/entnt-calendar.git
+cd entnt-calendar</code></pre>
+    </li>
+    <li><strong>Install dependencies In Both Api and Client Folder </strong>
+      <pre><code>npm install</code></pre>
+    </li>
+    <li><strong>Run the development server:</strong>
+      <pre><code>npm start</code></pre>
+    </li>
+    <li>Open <code>http://localhost:3000</code> in your browser to view the application.</li>
+  </ol>
+
   
   <h2>Features</h2>
   <ul>
@@ -49,25 +65,7 @@
     <li><strong>Deployment: Frontend</strong> Vercel</li>
     <li><strong>Styling:</strong> CSS(if applicable)</li>
   </ul>
-  <h2>Installation</h2>
-  <p>To run the project locally:</p>
-  <ol>
-    <li><strong>Clone the repository:</strong>
-      <pre><code>git clone https://github.com/your-username/entnt-calendar.git
-cd entnt-calendar</code></pre>
-    </li>
-    <li><strong>Install dependencies:</strong>
-      <pre><code>npm install</code></pre>
-    </li>
-    <li><strong>Set up environment variables:</strong>
-      <p>Create a <code>.env</code> file in the root directory and add the necessary environment variables (such as database URL, API keys, etc.).</p>
-    </li>
-    <li><strong>Run the development server:</strong>
-      <pre><code>npm start</code></pre>
-    </li>
-    <li>Open <code>http://localhost:3000</code> in your browser to view the application.</li>
-  </ol>
-
+  
   
 
   <h2>Contributing</h2>
