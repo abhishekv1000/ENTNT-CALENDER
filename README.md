@@ -10,9 +10,10 @@
   <h1>Entnt Calendar</h1>
   <p>EntNT Calendar is a web application that allows admins to add companies and their information, while clients can appoint specific companies. Both admins and clients have access to the calendar view page to schedule and manage appointments.</p>
 
-  <h2>Deployment</h2>
+  
   <p>The application is deployed on Vercel and can be accessed using the link below:</p>
   <h1> PLEASE WAIT FOR DATA FETCHING FROM BACKEND (MAX 2 SECOND) </h1>
+  <h1>Deployment Link</h1>
   <p><a href="https://entnt-calender.vercel.app/" target="_blank">https://entnt-calender.vercel.app/ </a></p>
 
 
@@ -26,7 +27,7 @@ cd entnt-calendar</code></pre>
     <li><strong>Install dependencies In Both Api and Client Folder </strong>
       <pre><code>npm install</code></pre>
     </li>
-    <li><strong>Run the development server:</strong>
+    <li><strong>Run this command in Both Api and Client </strong>
       <pre><code>npm start</code></pre>
     </li>
     <li>Open <code>http://localhost:3000</code> in your browser to view the application.</li>
