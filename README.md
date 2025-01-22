@@ -12,7 +12,7 @@
 
   
   <p>The application is deployed on Vercel and can be accessed using the link below:</p>
-  <h1> PLEASE WAIT FOR DATA FETCHING FROM BACKEND (MAX 2 SECOND) </h1>
+  <h1> PLEASE WAIT FOR DATA FETCHING FROM BACKEND (MAX 60 Second) Because Render Server awake from Sleep State </h1>
   <h1>Deployment Link</h1>
   <p><a href="https://entnt-calender.vercel.app/" target="_blank">https://entnt-calender.vercel.app/ </a></p>
 
